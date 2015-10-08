@@ -33,6 +33,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         system("python /Users/ant/Downloads/lifxlan-master/examples/broadcast_off.py")
     }
-
+    
+    @IBAction func quit(sender: NSMenuItem) {
+    
+    NSApplication.sharedApplication().terminate(sender)
+    
+    }
+    
 }
 

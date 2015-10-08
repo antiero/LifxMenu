@@ -680,6 +680,13 @@
                         <action selector="offMenuClicked:" target="Voe-Tx-rLC" id="i6j-hc-7hh"/>
                     </connections>
                 </menuItem>
+                <menuItem isSeparatorItem="YES" id="J6n-TH-Pli"/>
+                <menuItem title="Exit" id="lVv-GW-j1b" userLabel="Exit">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quit:" target="Voe-Tx-rLC" id="Nsm-3i-WVj"/>
+                    </connections>
+                </menuItem>
             </items>
             <point key="canvasLocation" x="224" y="228.5"/>
         </menu>
